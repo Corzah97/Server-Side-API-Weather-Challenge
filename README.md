@@ -50,7 +50,7 @@ When the page is refreshed, the saved events persist
 ## Web Links
 GitHub Repository - https://github.com/Corzah97/Server-Side-API-Weather-Challenge
 
-Deployed Website - https://corzah97.github.io/Homework-16-3-23/
+Deployed Website - https://corzah97.github.io/Server-Side-API-Weather-Challenge/
 
 ## Work Completed
 
