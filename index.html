@@ -7,27 +7,41 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Weather Dashboard</title>
 </head>
-<body>
-  <h1 class="text-center bg-secondary">Weather Dashboard</h1>
+<body class="postion-relative overflow-x-hidden"> 
+  <img src="./Images/c644b7a073b9ae7796f0636c59099ca9.jpg" style="position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: block;
+  object-fit: cover;
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+  object-position: left center;" alt="">
+  <h1 class="text-center bg-secondary display-1">Weather Dashboard</h1>
+ 
     
-    <section class="vh-100">
+    <section>
         <div class="container py-5 h-100">
       
           <div class="row d-flex justify-content-center align-items-center mb-4">
-            <div class="col-md-8 col-lg-6 col-xl-4">
+            <div class="col-md-4 col-lg-6 col-xl-4">
       
-              <h3 class="mb-4 pb-2 fw-normal text-center">Check the weather forecast</h3>
+              <h3 class="mb-4 pb-2 fw-normal text-center display-6">Check the weather forecast</h3>
 
               <div class="input-group mb-3">
-                <input id="city-input" type="text" class="form-control" placeholder="Location" aria-label="" aria-describedby="search-button">
+                <input style="--bs-bg-opacity: .5;" id="city-input" type="text" class="form-control" placeholder="Location" aria-label="" aria-describedby="search-button">
                 <button id="search-button" class="btn btn-outline-secondary" type="button">Search</button>
               </div>
       
               
       
             
-              <div class="card shadow-1 border border-primary">
-                <div id="main-body" class="card-body p-4">
+              <div class="card shadow-1 border border-primary ">
+                <div id="main-body" class="card-body p-4 text-center">
       
                   
       
@@ -38,9 +52,11 @@
       
             </div>
           </div>
+
+          <div class="col-md-4 row d-flex justify-content-center align-items-center" id="storedCities"></div>
           
           <div class="row d-flex justify-content-center align-items-center">
-            <div id="five-days-display" class="col-md-10 d-flex justify-content-between align-items-baseline">
+            <div id="five-days-display" class="col-md-8 d-flex justify-content-between align-items-baseline">
 
             </div>
           </div>
