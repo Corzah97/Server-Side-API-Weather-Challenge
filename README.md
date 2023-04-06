@@ -22,7 +22,10 @@ WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 ```
 
+## Screenshot
+
 ## Mock-Up
+![A user clicks on search to search for weather at their location.](./Images/demo.gif)
 
 ## Languages Used
 HTML
@@ -35,14 +38,16 @@ Weather API
 
 ## Work Done
 
-When the planner is openned, the current day is displayed at the top of the calendar
+When the i open the web page i am able to type up a name of a city to find the weather for that location
 
 When clicked on the search button, then the text for that event is saved in local storage
+
+When i click on search it brings me up the forecast for the next 5 days aswell
 
 When the page is refreshed, the saved events persist
 
 ## Web Links
-GitHub Repository - https://github.com/Corzah97/Homework-16-3-23
+GitHub Repository - https://github.com/Corzah97/Server-Side-API-Weather-Challenge
 
 Deployed Website - https://corzah97.github.io/Homework-16-3-23/
 
