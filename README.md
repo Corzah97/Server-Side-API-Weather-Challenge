@@ -23,6 +23,7 @@ THEN I am again presented with current and future conditions for that city
 ```
 
 ## Screenshot
+![Front Page](Images/Screenshot%202023-04-06%20202209.png)
 
 ## Mock-Up
 ![A user clicks on search to search for weather at their location.](./Images/demo.gif)
